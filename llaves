@@ -1,0 +1,14 @@
+# Configurar LLaves de deb.multimedia 
+1. agregadas las Lineas al source.list
+2. Descargado el archivo .deb 
+3. Ejecuta en consola modo root
+-> # dpkg -i deb-multimedia-keyring.deb
+# Configurar llave de Google Chrome
+1.Ejecutar en consola modo root
+-> # gpg --keyserver keys.gnupg.net --recv-key A040830F7FAC5991
+# Configurar llave de VirtualBox
+1.Ejecutar en consola modo root
+-> # wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -
+-> # wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add -
+# Final Aplicar 
+# apt update
