@@ -1,0 +1,13 @@
+# Lista de Repositorios de Debian stretch --9.1--
+# Oficiales
+deb http://ftp.us.debian.org/debian/ stretch main contrib non-free
+deb-src http://ftp.us.debian.org/debian/ stretch main contrib non-free
+# Actualizaciones de seguridad
+deb http://security.debian.org/debian-security stretch/updates main contrib non-free
+deb-src http://security.debian.org/debian-security stretch/updates main contrib non-free
+# debian-multimedia
+deb http://www.deb-multimedia.org stretch main non-free
+# VirtualBox
+deb http://download.virtualbox.org/virtualbox/debian stretch contrib
+#Google Chrome
+deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main
